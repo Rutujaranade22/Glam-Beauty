@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7e7e7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .cont {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #a64ca6;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .contact-info a {
+            color: #a64ca6;
+            text-decoration: none;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #a64ca6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+         
+        
+        /* Media Query for Tablets and Smaller Screens */
+        @media (max-width: 768px) {
+            .contact-info p {
+                font-size: 16px;
+            }
+            .contact-form {
+                padding: 15px;
+                max-width: 100%;
+            }
+            .contact-form input,
+            .contact-form textarea {
+                padding: 8px;
+                margin: 8px 0;
+            }
+            .contact-form button {
+                width: 100%;
+                padding: 12px;
+            }
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+            .contact-info p {
+                font-size: 14px;
+            }
+            .contact-form {
+                padding: 10px;
+            }
+            .contact-form button {
+                padding: 10px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="cont">
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> At.sinnar Shirdi Highway</p>
+            <p><strong>Phone:</strong> <a href="tel:+919822467751">+919822467751</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@glambeautyparlour.com">info@glambeautyparlour.com</a></p>
+            <p>We'd love to hear from you! Feel free to reach out via phone or email, or fill out the contact form below.</p>
+        </div>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+ </div>
+ 
+ <footer>
+    <div class="footer">
+        <b>&copy; 2024 Glam Beauty Parlour. All rights reserved.</b>
+    </div>
+</footer>
+
+</body>
+</html>
