@@ -23,4 +23,4 @@
 - Spa Treatments: Massages, body scrubs, detox treatments, aromatherapy.
 - Eyebrows and Lashes: Eyelash extensions, eyebrow shaping, tinting.
 # Hosted link:-
- (https://nutrinourish.netlify.app)
+ (https://glam-beauty-hub.netlify.app)
