@@ -6,31 +6,21 @@
 
 # Features:-
 
-- User-friendly interface.
-- Responsive design for mobile and desktop
- - A variety of healthy meal options
-- Nutritional information 
- - Meal planning 
-- Option to create a personalized meal plan
+-  Comprehensive Beauty Services.
+- Expert Professionals
+ -Certified Stylists and Beauticians
+- Hygiene and Safety
+ - Bridal and Event Packages
+- Online Booking System
 
-# Screenshots:-
- I Include screenshots of my  website  so you will understande my project.
+ # Services Offered:-
 
-
-  ![screenshots](./images/Screenshots/img1.png)
-1. index page
-
-
-![screenshots](./images/Screenshots/img2.png)
-2. Why choose Our website..
-
-
-![screenshots](./images/Screenshots/img3.png)
-3. Muscle gain meal plan
-
-
-![screenshots](./images/Screenshots/img4.png)
-4. Weight loss meal plan
-
+ - Hair Services: Haircuts, styling, coloring, treatments, hair extensions.
+- Skincare: Facials, microdermabrasion, chemical peels, acne treatments.
+- Makeup: Bridal makeup, party makeup, professional makeup, makeup consultations.
+- Nail Care: Manicures, pedicures, nail art, gel nails, acrylic nails.
+- Waxing and Threading: Full body waxing, eyebrow threading, bikini waxing.
+- Spa Treatments: Massages, body scrubs, detox treatments, aromatherapy.
+- Eyebrows and Lashes: Eyelash extensions, eyebrow shaping, tinting.
 # Hosted link:-
  (https://nutrinourish.netlify.app)
