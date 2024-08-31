@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hairstyling</title>
-     <link rel="icon" href="../img/beauty.png" type="png">
-
+    <link rel="icon" href="../img/beauty.png" type="png">
 
     <style>
         body {
@@ -57,9 +56,31 @@
             text-decoration: none;
             border-radius: 5px;
         }
-        
- 
 
+        /* Media query for screens larger than 1200px */
+        @media (min-width: 1200px) {
+            .con {
+                max-width: 1200px;
+            }
+            .gallery img {
+                max-width: 30%;
+            }
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+        /* Media query for screens between 768px and 1199px */
+        @media (min-width: 768px) and (max-width: 1199px) {
+            .gallery img {
+                max-width: 45%;
+            }
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        /* Media query for screens smaller than 768px */
         @media (max-width: 768px) {
             .gallery img {
                 max-width: 100%; /* Make gallery images take full width on smaller screens */
@@ -102,8 +123,6 @@
             <p>Ready for a new look? <a href="contact.html">Book your appointment today!</a></p>
         </div>
     </div>
-    
-    
 
 </body>
 </html>
