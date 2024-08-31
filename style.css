@@ -69,7 +69,7 @@ footer {
   text-align: center;
 }
 
-/* For large screens (min-width: 1200px) */
+/* For large screens*/
 @media screen and (min-width: 1200px) {
   .container {
     font-size: 22px;
@@ -94,7 +94,7 @@ footer {
   }
 }
 
-/* For tablets and small desktops (between 768px and 1199px) */
+/* For tablets*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .main-container {
     flex-direction: column;
@@ -116,7 +116,7 @@ footer {
   }
 }
 
-/* For mobile devices (max-width: 767px) */
+/* For mobile devices*/
 @media screen and (max-width: 767px) {
   .container {
     padding: 10px;
@@ -146,27 +146,3 @@ footer {
   }
 }
 
-/* For very small mobile devices (max-width: 480px) */
-@media screen and (max-width: 480px) {
-  .container {
-    font-size: 18px;
-  }
-
-  .img {
-    height: 250px;
-    width: 300px;
-  }
-
-  .page a {
-    margin: 0 10px;
-    font-size: 0.8em;
-  }
-
-  .info {
-    font-size: 1em;
-  }
-
-  footer {
-    padding: 15px 0;
-  }
-}
